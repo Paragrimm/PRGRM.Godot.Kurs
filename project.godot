@@ -11,7 +11,14 @@ config_version=5
 [application]
 
 config/name="PRGRM.Godot.Kurs"
-config/features=PackedStringArray("4.2", "Forward Plus")
+config/description="Das Projekt zu meinem Godot Kurs. Dieses Projekt ist als Kurs-Begleitung gedacht.
+
+Eine genaue Beschreibung findest du hier auf GitHub:
+https://github.com/Paragrimm/PRGRM.Godot.Kurs	"
+config/version="0.0.0"
+config/features=PackedStringArray("4.2", "C#", "Forward Plus")
+boot_splash/bg_color=Color(0, 0.0862745, 0.117647, 1)
+boot_splash/image="res://Assets/SplashScreen.png"
 config/icon="res://icon.svg"
 
 [dotnet]
